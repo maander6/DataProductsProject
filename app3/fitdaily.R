@@ -1,5 +1,8 @@
 fitdaily <- function(wht, dte){
-        cookie <- login("maander6@gmail.com", "knen8175", rememberMe=FALSE)
+        
+        # Hide the login information for public display on github
+        
+        cookie <- login(email="****************", password="*****************", rememberMe=FALSE)
         daily <- get_intraday_data(cookie, wht, dte)
         daily
 }
