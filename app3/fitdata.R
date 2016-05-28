@@ -2,9 +2,7 @@ fitdata <- function(){
         library(dplyr)
         library(fitbitScraper)
         
-        ## Hide the Username and password for security in the Github posted file
-        
-        cookie <- login(username="***************", password="************", rememberMe=FALSE)
+        cookie <- login("maander6@gmail.com", "knen8175", rememberMe=FALSE)
         
         start <- "2010-01-20"
         steps <- get_daily_data(cookie, "steps", start, as.character(Sys.Date()))

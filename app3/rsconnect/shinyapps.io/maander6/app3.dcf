@@ -2,8 +2,8 @@ name: app3
 account: maander6
 server: shinyapps.io
 appId: 104913
-bundleId: 465118
+bundleId: 465208
 url: https://maander6.shinyapps.io/app3/
-when: 1464457617.88676
+when: 1464473121.11613
 asMultiple: FALSE
 asStatic: FALSE
